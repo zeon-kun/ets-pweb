@@ -23,7 +23,7 @@ function main() {
         var newScore = document.createElement("div");
         newScore.innerHTML = `
                     <div class="mb-8">
-                        <div class="text-gray-900 font-bold text-xl mb-2 text-center">${data_sorted[i].nama} - ${data_sorted[i].score}</div>
+                        <div class="text-white font-bold text-xl mb-2 text-center">${data_sorted[i].nama} - ${data_sorted[i].score}</div>
                     </div>
                 `;
 
